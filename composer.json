@@ -1,0 +1,25 @@
+{
+    "name": "fabricio872/random-teapot-bundle",
+    "description": "This is a Symfony bundle which replaces some requests with error 418 - I'm a teapot",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/http-kernel": "^6.1",
+        "symfony/yaml": "^6.1",
+        "symfony/event-dispatcher": "^6.1",
+        "symfony/event-dispatcher-contracts": "^3.1",
+        "symfony/twig-bundle": "^6.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fabricio872\\RandomTeapotBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabricio",
+            "email": "fabricio872@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
