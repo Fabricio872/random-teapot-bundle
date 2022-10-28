@@ -19,5 +19,7 @@ class RandomTeapotExtension extends Extension
 
         $eventDefinition = $container->getDefinition('fabricio872_random_teapot.event_listener.request_listener');
         $eventDefinition->setArgument(0, $config['randomness']);
+        $eventDefinition->setArgument(1, $config['path_filter']);
+        $eventDefinition->setArgument(2, $config['template']);
     }
 }
