@@ -69,4 +69,4 @@ random_teapot:
 # ...
 ```
 
- Path filter 
+ Path filter is using bash wildcards to define multiple paths [learn more](https://ryanstutorials.net/linuxtutorial/wildcards.php)
